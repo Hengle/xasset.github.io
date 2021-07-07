@@ -2,7 +2,6 @@
 * 入门
   * [快速开始](/getstarted "快速开始")
   * [系统环境](/requires "环境需求")
+  * [获得授权](/authorize "获得授权")
 
-
-* [授权模式](/authorize "授权模式")
 * [订阅协议](/agreement "订阅协议")
