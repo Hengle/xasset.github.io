@@ -10,7 +10,7 @@ xasset-6.1 是快速，强大的分布式 Unity 资源框架，主要为 Unity �
 - 1k+ 用户的行业内容交流群（持续增长）
 - 15+ 次创作赞助扶持（持续投入）
 
-<video src="\res\example.mp4"></video>
+<video src="res\example.mp4"></video>
 
 ### 特性
 
