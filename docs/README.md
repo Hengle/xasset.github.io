@@ -6,9 +6,11 @@ xasset-6.1 是快速，强大的分布式 Unity 资源框架，主要为 Unity �
 
 - 1.4k+ 星标（开源项目）
 - 150+ 个人和团队付费订阅（5.1-6.1）
-- 20+ 团队付费订阅（持续增长）
+- 25+ 团队付费订阅（持续增长）
 - 1k+ 用户的行业内容交流群（持续增长）
 - 15+ 次创作赞助扶持（持续投入）
+
+<video src="C:\Users\fjy\Desktop\GitHub\xasset.github.io\docs\res\example.mp4"></video>
 
 ### 特性
 
