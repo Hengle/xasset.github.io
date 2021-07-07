@@ -30,4 +30,5 @@ xasset-6.1 主要为 Unity 项目的打包慢、包体大、版本更新、内�
 
 ### 示例演示
 
-<iframe height=498 width=510 src="https://vdn.vzuu.com/HD/8b35a21c-b0ab-11eb-8503-8efebe4ec19d-t1-vfjwlgg8dU.mp4?disable_local_cache=1&auth_key=1625674460-0-0-adfa3c9ad07e061981746559775b46eb&f=mp4&bu=http-com&expiration=1625674460&v=ali">
+<iframe  height=800 width=600 src="https://vdn3.vzuu.com/HD/aad84ebc-df36-11eb-8c43-5e03c0a5cdd5-t11-vhh4yLyQu5.mp4?disable_local_cache=1&auth_key=1625675375-0-0-3ab894aed69ac0afd44df545ffc0583a&f=mp4&bu=http-com&expiration=1625675375&v=tx">
+
