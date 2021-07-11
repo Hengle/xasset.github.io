@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## 欢迎使用 xasset
 
-You can use the [editor on GitHub](https://github.com/xasset/xasset.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+xasset-6.1 是快速，强大的分布式 Unity 资源系统。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+xasset-6.1 主要为 Unity 项目的打包慢、包体大、版本更新、内存管理、运行卡顿等疑难杂症提供了全面可靠的解决方案。
 
-### Markdown
+### 特性
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- 分包、边玩边下，可以空包启动、示例的最小安装包 apk 不到 20MB。
+- 分布式增量按需打包，默认自动分析依赖，自动优化冗余，自动解决冲突，10w 左右的贴图 10 分钟可以完成打包。 
+- 分布式增量按需更新、自动更新，提供支持限速、断点续传、异常处理的多线程下载工具，轻松查询下载内容的大小、速度和进度。
+- 统一使用相对路径加载资源，场景加载、常规资源加载，异步同步无缝切换，全面支持 Windows、OSX、Android、iOS、Web GL。
+- 基于引用计数的内存管理机制，不重复加载、不轻易释放，异步渐进式回收，Profiler 测试具备“进多少、出多少”的可靠性。
+- 异步切片机制、集中处理更新操作，提供单帧最大更新时间片设置，让程序可以更流畅的运行。
+- 支持仿真模式、预加载模式、增量模式，可以更方便的进行迭代开发。
 
-```markdown
-Syntax highlighted code block
+### 技术支持
 
-# Header 1
-## Header 2
-### Header 3
+遇到问题可以先查阅文档或是[点击链接加入群聊【GAME+】](https://jq.qq.com/?_wv=1027&k=7DpHQNhb)给群主留言。
 
-- Bulleted
-- List
+### 成就
 
-1. Numbered
-2. List
+从开源版本到商业化，xasset 已经持续迭代了近 5 年，通过持续不断的自我迭代和突破 xasset 项目达成了：
 
-**Bold** and _Italic_ and `Code` text
+- 1.4k+ 星标（开源项目）
+- 150+ 个人和团队付费订阅（5.1-6.1）
+- 25+ 团队付费订阅（持续增长 6.1）
+- 1k+ 用户的行业内容交流群（持续增长）
+- 15+ 次创作赞助扶持（持续投入）
 
-[Link](url) and ![Image](src)
-```
+### 示例演示
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<iframe  height=800 width=600 src="https://vdn3.vzuu.com/HD/aad84ebc-df36-11eb-8c43-5e03c0a5cdd5-t11-vhh4yLyQu5.mp4?disable_local_cache=1&auth_key=1625675375-0-0-3ab894aed69ac0afd44df545ffc0583a&f=mp4&bu=http-com&expiration=1625675375&v=tx">
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xasset/xasset.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
