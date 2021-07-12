@@ -2,7 +2,7 @@
 
 ## 工程结构
 
-xasset-7.1 的工程主要包含以下部分：
+xasset-7.0 的工程主要包含以下部分：
 
 - Assets/VEngine 源码
 - Assets/VEngine.Examples 示例
