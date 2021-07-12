@@ -1,7 +1,7 @@
 <!-- docs/getstarted.md -->
 ## 快速开始
 
-只需 5 步就可以在 Unity 种体验 xasset-7.0 的示例：
+只需 5 步就可以在 Unity 中体验 xasset-7.0 的示例：
 
 1. 使用 Unity 新建一个叫 xasset-example 的项目；
 
