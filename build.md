@@ -21,7 +21,7 @@ xasset 使用一个叫 Build 的可序列化类对象来配置单次要打包的
 
 以下是一个已经创建好的叫 Arts 的 Build 对象的在 Inspector 的截图：
 
-![example-build](res\example-build.png)
+![example-build](res/example-build.png)
 
 Build 对象主要包含如下属性：
 
@@ -36,7 +36,7 @@ Build 对象主要包含如下属性：
 
 - Name 当 Bundle Mode 为 Pack Together 的时候会按这个名字把采集到的资源一起打包。
 - Active 是否启用，启用后，在执行打包的时候才会采集这个分组的资源。
-- Bundle Mode 默认提供了5 个不同粒度的打包模式，具体参考[Bundle Mode的配置说明](# Bundle Mode 的配置说明)。
+- Bundle Mode 默认提供了5 个不同粒度的打包模式，具体参考[Bundle Mode的配置说明](#3-%E4%B8%BA-group-%E9%80%89%E6%8B%A9-bundle-mode)。
 - Target 要打包的目标对象，可以是单个文件，或者文件夹，是文件夹的时候可以通过 Filter 限定采集的资源类型。
 - Filter 当 Target 是文件夹的时候有效，具体参考 https://docs.unity3d.com/ScriptReference/AssetDatabase.FindAssets.html 。
 - Handle Dependencies 是否处理依赖，通常 Prefab、Scene、Animation 之类的文件需要开启依赖处理，而 Shader、Textures、Text Asset 之类不需要开启依赖处理，按需开启可以优化打包速度。
