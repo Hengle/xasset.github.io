@@ -85,7 +85,7 @@ xasset-7.0 的示例主要包含以下特性的演示：
 
    ![example-downloadandunpack](res/example-downloadandunpack.png)
 
-## 历史
+## 历史记录
 
 从开源版本到商业化，xasset 已经持续迭代了近 5 年，通过持续不断的自我迭代和突破 xasset 项目达成了：
 
