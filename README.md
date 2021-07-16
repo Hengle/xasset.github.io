@@ -8,32 +8,24 @@ xasset-7.0 是快速、强大的 Unity 资源系统。
 
 对比上一个 6.1 版本，xasset-7.0 的主要改动如下：
 
-- 全新的分布式分包打包配置和工具，可以轻易驾驭 10w +量级资源的分布式打包支持。
+- Android App Bundle 完美适配支持（仅限团队订阅)。
+- 全新的分布式分包打包配置和工具，可以轻易驾驭 10w+ 量级资源的分布式打包支持。
 - 更精炼的代码结构，根据 Rider 统计目前编辑器+运行时大约 4800 行代码，大约比之前少了 2000 行代码。
-- 使用 json 格式生成清单文件和清单的版本文件，去掉了之前旧的清单序列化和反序列相关内容。
-- 代码直接放在 Assets 目录，方便开发。
-
-### 运行时
-
-- Versions.DownloadAsync 操作底层改成 one by one 的下载机制，下载出错时可以更灵敏的进行错误返回，并增加了 updated 事件，方便业务开发。
+- 使用兼容性更强结构更清晰的 json 格式生成清单文件和清单的版本文件。
+- 全新的运行时更新分组设计，和编辑器打包的分组相互独立，调整运行时分组可以不需要修改打包的分组。
+- Versions.DownloadAsync 操作底层改成 one by one 的下载机制，下载出错时可以更灵敏的进行错误返回。
 - Versions.GetDownloadSizeAsync 改成只支持通过资源路径批量检查更新大小的实现。
-- 增加 BundledAssets 序列化对象类，用来记录资源列表，可以进行备注，并提供了可以通过拖拽的方式批量添加资源的编辑器扩张。
+- 增加 Groups 序列化对象类，用来记录资源列表，可以进行备注，并提供了可以通过拖拽的方式批量添加资源的编辑器扩张。
 - 使用 ManifestAsset 接管了本地和服务器的清单加载逻辑，删除了旧的 DownloadManifestFile & BuiltinManifestFile。
 - 对 Download 组件的异常处理能力进行了强化，修复了 crc 校验在多线程环境中可能出现异常的情况，并增加了 updated 事件，方便业务开发。
 - Scene、Download、UnpackBinary、DownloadQueue 等类增加了 updated 事件，方便业务开发，并去掉了 SceneObject 相关内容。
-
-### 编辑器
-
 - 增加 Record 记录每次 Build 新增的文件，BuildScript.postprocessBuildBundles 会返回这个对象，业务可以将这个对象的 files 的内容上传到服务器。
 - 提供新的可序列化对象 Build 类处理打包的资源采集、依赖分析、自动分组、二级制合并等操作，可以更轻松的处理 数十万资源量级项目的分布式打包配置。
 - 简化 BundleMode，目前只提供了 5 种常用的打包模式：PackTogether、PackByFile、PackByDirectory、PackByTopDirectory、PackByRaw。
 - 提供了新的打包 Group 配置，支持更灵活的筛选、启用、是否分析依赖等选项，对不带依赖的资源关闭依赖分析可以加快打包速度。
-- 提供了新的编辑器打包工具菜单选项，具体参考 Assets/Build 一栏 和 Assets/Create/Versions 一栏。
+- 提供了新的编辑器打包工具菜单选项，具体参考 Assets/Versions 一栏 和 Assets/Create/Versions 一栏。
 - bundle 名字支持保留目录格式。
-
-### 示例
-
-- 适配了 7.0 的 API 的版本。
+- 适配了 7.0 的 API 的版本的示例。
 
 ## 功能特性
 
@@ -43,7 +35,7 @@ xasset-7.0 是快速、强大的 Unity 资源系统。
 - 稳定可靠：使用引用计数进行内存管理，不重复加载、进多少、出多少。
 - 流畅运行：异步实例化、异步渐进式回收...超时处理可自动分帧平滑如丝。
 - 灵敏迭代：支持仿真模式、预加载模式、增量模式，编辑器可以和真机无缝切换。
-- 兼容广泛：支持 Android、iOS、WebGL、PC、OSX 等平台。
+- 兼容广泛：支持 Android、iOS、WebGL、PC、OSX 等平台，完美适配 AAB。
 
 ## 示例
 

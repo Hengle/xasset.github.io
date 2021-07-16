@@ -30,7 +30,7 @@ Build 对象主要包含如下属性：
 - Groups 参与打包的分组配置，分组的 Target 可以设置为文件或者文件夹，是文件夹时，还可以通过 Filter 指定只针对哪种资源。
 - Options 打包 AB 的选项，常规资源使用 Chunk 格式，包含视频的分组需要使用 Uncompress 格式。
 
-### 2. 添加 Group
+#### 1.1. 添加 Group
 
 一个 Build 可以包含多个 Group，可以直接修改 Build 对象的 Groups 的 Size 添加新的 Group。以下是 Group 的属性说明：
 
@@ -41,7 +41,7 @@ Build 对象主要包含如下属性：
 - Filter 当 Target 是文件夹的时候有效，具体参考 https://docs.unity3d.com/ScriptReference/AssetDatabase.FindAssets.html 。
 - Handle Dependencies 是否处理依赖，通常 Prefab、Scene、Animation 之类的文件需要开启依赖处理，而 Shader、Textures、Text Asset 之类不需要开启依赖处理，按需开启可以优化打包速度。
 
-### 3. 为 Group 选择 Bundle Mode
+#### 1.2 为 Group 选择 Bundle Mode
 
 Bundle Mode 主要决定了资源的打包方式。除了 Pack By Raw 外，都是把资源打包成 Asset Bundle，以下是 Bundle Mode 的属性说明：
 
@@ -53,11 +53,26 @@ Bundle Mode 主要决定了资源的打包方式。除了 Pack By Raw 外，都�
 
 ### 4. 执行 Build
 
-执行打包后，默认执行的操作依次是：采集资源->自动分组（可选）->生成清单->生成记录
+执行 Build 主要有 3 种方式：
 
+- Build Bundles.bat 的命令行工具。
+- Assets/Versions/Build/Bundles 编辑器菜单。
+- Build 对象的 Inspector 界面的 Build Bundles 按钮。
 
+执行打包后，默认执行的操作依次是：采集资源 -> 自动分组（可选）-> 生成清单 -> 生成记录。
+
+打包后生成的文件默认将输出到项目的 Bundles 目录，改目录和 Assets 目录平级，打包后的文件会分平台存放在这个目录，对应的平台有 Android、iOS、Windows、WebGL 等。
 
 ## 打包播放器
+
+打包播放器，就是打包安装包的过程。主要可以通过以下方式进行：
+
+- Build Player.bat 的命令行工具。
+- Assets/Versions/Build/Player 编辑器菜单。
+- File/Build Setting/Build(Build And Run) 菜单。
+- File/Build And Run 菜单。
+
+注：不论通过何种方式打包，系统默认会通过打包的预处理自动把相应资源复制到 StreamingAssets，并在打包完成后自动删除复制过去的资源，从而减小不必要的资源 Reimport 过程所需要的时间，如果项目体量大，这个过程是非常漫长的，这个算是 Unity 的一个反人类的设计，明明 StreamingAssets 目录是不做特殊处理的文件夹，为哈还要触发 Reimport 呢？
 
 ## 术语
 
