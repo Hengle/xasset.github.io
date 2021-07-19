@@ -16,7 +16,7 @@
   * [初始化](/initialize "初始化")
   * [更新版本信息](/update-versions "更新版本信息")
   * [获取下载大小](/get-download-size "获取更新大小")
-  * [批量下载内容](/download-versions "下载更新内容")
+  * [批量下载文件](/download-versions "下载更新内容")
   * [解压二进制](/unpack-binary "解压二进制")
   * [离线模式](/offline-mode "离线模式")
 
