@@ -22,7 +22,7 @@ public static class ExampleCustomPacker
         global::Versions.Editor.Builds.Group.customPacker += CustomPacker;
     }
 
-    private static string CustomPacker(string assetPath, string bundle)
+    private static string CustomPacker(string assetPath, string bundle, string group)
     {
         if (assetPath.Contains(".shader"))
         {
