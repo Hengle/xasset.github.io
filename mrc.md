@@ -12,6 +12,6 @@ xasset-7.0 的引用计数规则比较简单：
 
 所以，在使用 xasset-7.0 进行资源管理的时候，一般只要不踩 Unity 的这些坑：
 
-- Android 下，Camera 引用的 AssetBundle 中的 RendererTexture，需要先把 Camera.targetTexture 置空后，才能正常回收。 
+- Android 下，Camera 引用 AssetBundle 中的 RendererTexture，需要先把 Camera.targetTexture 置空后，才能正常回收。 
 
 只要确保 Load 的次数和 Release 的次数一致，资源就会得到正常回收。
