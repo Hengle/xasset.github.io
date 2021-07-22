@@ -38,4 +38,4 @@ var asset = Asset.Load(pathToAsset, typeof(ScriptableObject));
 var so = asset.asset as ScriptableObject;
 ```
 
-限于篇幅，这里暂且列举这么多，可以参考 AssetDatabase.LoadAssetAtPath 的使用来使用 Asset.Load(Async)。
+限于篇幅，这里暂且列举这么多，可以参考 AssetDatabase.LoadAssetAtPath 的使用方法来使用 Asset.Load(Async)。
