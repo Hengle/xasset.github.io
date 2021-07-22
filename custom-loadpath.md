@@ -6,3 +6,25 @@
 - Versions.customLoadPath
 
 重定义加载地址，以下是相关代码的实现参考：
+
+```c#
+// ...
+Versions.customLoadPath = LoadByNameWithoutExtension;
+var initialize = Versions.InitializeAsync();
+yield return initialize;
+```
+
+LoadByNameWithoutExtension 方法的实现如下：
+
+```c#
+private string LoadByNameWithoutExtension(string assetPath)
+{
+    // loadKeys = { "Prefabs/" };
+    if (loadKeys == null || loadKeys.Length == 0) return null; 
+    if (!Array.Exists(loadKeys, assetPath.Contains)) return null; 
+    var assetName = Path.GetFileNameWithoutExtension(assetPath);
+    return assetName;
+}
+```
+
+需要注意的是，自定义的加载路径需要自行规避同名冲突，如果不想使用自定义的加载路径就返回 null。
