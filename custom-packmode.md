@@ -5,7 +5,7 @@
 
 - PackTogether：同一个分组的资源打包到一起。
 - PackByFile：分组中的每个文件，按文件名单独打包。
-- PackByDirectory：分组中的每个文件，按文件名单独打包。
+- PackByDirectory：分组中的每个文件，按其所在的文件夹名字打包。
 - PackByTopDirectory：分组中的每个文件，按一级子目录名字进行打包。
 - PackByRaw：分组中的每个文件，按原始格式打包。
 
