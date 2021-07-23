@@ -4,10 +4,10 @@
 打包粒度主要通过资源分配的 bundle 名字控制，默认，系统提供了这 5 种打包方式：
 
 - PackTogether：同一个分组的资源打包到一起。
-- PackByFile：分组种的每个文件，按文件名单独打包。
-- PackByDirectory：分组种的每个文件，按文件名单独打包。
-- PackByTopDirectory：分组种的每个文件，按一级子目录名字进行打包。
-- PackByRaw：分组种的每个文件，按原始格式打包。
+- PackByFile：分组中的每个文件，按文件名单独打包。
+- PackByDirectory：分组中的每个文件，按文件名单独打包。
+- PackByTopDirectory：分组中的每个文件，按一级子目录名字进行打包。
+- PackByRaw：分组中的每个文件，按原始格式打包。
 
 自定义打包粒度主要用来把默认的 BundleMode 修改为自己的实现方式。
 
