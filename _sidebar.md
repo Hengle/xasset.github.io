@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 * 入门
   * [快速开始](/getstarted "快速开始")
+  * [示例说明](/example "示例说明")
   * [系统需求](/requires "系统需求")
   * [工程结构](/structure "工程结构")
 
