@@ -31,7 +31,7 @@
   * [增量模式](/increament "增量模式")
 
 * 资源加载
-  * [寻址策略 & 自动更新](/addressing-strategy-and-automatic-update "寻址策略 & 自动更新")
+  * [加载策略 & 自动更新](/loading-and-updating.md "加载策略 & 自动更新")
   * [常规资源加载](/load-asset "常规资源加载")
   * [场景加载](/load-scene "场景加载")
   

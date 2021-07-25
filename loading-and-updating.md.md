@@ -1,5 +1,5 @@
-<!-- docs/addressing-strategy-and-automatic-update.md -->
-## 寻址策略 & 自动更新
+<!-- docs/loading-and-updating.md -->
+## 加载策略 & 自动更新
 
 在 xasset-7.0 中，资源的加载策略是：
 
