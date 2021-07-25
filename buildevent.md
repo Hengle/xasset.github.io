@@ -18,15 +18,16 @@ public static class ExampleBuildProcessor
         BuildScript.preprocessBuildBundles += PreprocessBuildBundles;
     }
 
-    private static void PreprocessBuildBundles(Build build)
+    private static void PreprocessBuildBundles(BuildTask task)
     {
-        Debug.LogFormat("PreprocessBuildBundles {0}", build.name);
+        Debug.LogFormat("PreprocessBuildBundles {0}", task.name);
     }
 
-    private static void PostprocessBuildBundles(Record record)
+    private static void PostprocessBuildBundles(BuildTask task)
     {
-        Debug.LogFormat("PostprocessBuildBundles {0}", record?.build);
+        Debug.LogFormat("PostprocessBuildBundles {0}", task.name);
 
+        var record = task.record;
         if (record == null)
         {
             return;
