@@ -8,7 +8,7 @@ xasset-7.0 的示例主要包含以下特性的演示：
    ![example-settings](res/example-settings.png)
    ![example-build](res/example-build.png)
 
-2. 初始化，短链接配置、自动更新配置、闪屏
+2. 初始化，自定义加载路径、自动更新配置、闪屏
 
    ![example-startup](res/example-startup.png) 
    ![example-splash](res/example-splash.png)

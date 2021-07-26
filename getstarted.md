@@ -7,7 +7,7 @@
 
 2. 将 **xasset-v7.0-src&example.unitypackage** 导入到这个项目；
 
-3. 使用 Assets/Bundles/Build Bundles 菜单执行打包，如下图： 
+3. 使用 Assets/Versions/Build/Bundles 菜单执行打包，如下图： 
 
    ![getstarted-build-bundles](res\getstarted-build-bundles.png)
 
