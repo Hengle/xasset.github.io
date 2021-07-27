@@ -61,7 +61,7 @@ Bundle Mode 主要决定了资源的打包方式。除了 Pack By Raw 外，都�
 
 执行打包后，默认执行的操作依次是：采集资源 -> 自动分组（可选）-> 生成清单 -> 生成记录。
 
-打包后生成的文件默认将输出到项目的 Bundles 目录，改目录和 Assets 目录平级，打包后的文件会分平台存放在这个目录，对应的平台有 Android、iOS、Windows、WebGL 等。
+打包后生成的文件默认将输出到项目的 Bundles 目录，该目录和 Assets 目录平级，打包后的文件会分平台存放在这个目录，对应的平台有 Android、iOS、Windows、WebGL 等。
 
 ## 打包播放器
 
