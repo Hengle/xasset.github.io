@@ -4,6 +4,7 @@
   * [示例说明](/example "示例说明")
   * [系统需求](/requires "系统需求")
   * [工程结构](/structure "工程结构")
+  * [版本比较](/compare-plans "版本比较")
 
 * 订阅
   * [团队授权](team-plan "团队授权")
