@@ -1,6 +1,8 @@
 <!-- docs/_sidebar.md -->
 * 入门
   * [快速开始](/getstarted "快速开始")
+  * [更新记录](/changes "更新记录")
+  * [开发路线](/roadmap "开发路线")
   * [示例说明](/example "示例说明")
   * [系统需求](/requires "系统需求")
   * [工程结构](/structure "工程结构")
