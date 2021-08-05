@@ -28,7 +28,7 @@
 
 **主要内容**
 
-- 全新的分布式构建系统（文档参考：https://xasset.github.io/）
+- 全新的分布式构建系统（文档参考：https://xasset.github.io/ ）
 - Android App Bundle 适配支持（母包可以超过 150MB）
 - XLua 打包加载适配
 - 更精炼的程序结构（编辑器+运行时核心代码不到5000行）
@@ -37,4 +37,4 @@
 **注意事项**
 
 - 7.0 开始将以 unitypackage 的形式提供源代码和示例，以及扩展模块。
-- 7.0 提供了全新的授权模式，之前 6.1 的老用户继续沿用之前的授权模式，具体参考：https://xasset.github.io/#/team-plan。
+- 7.0 提供了全新的授权模式，之前 6.1 的老用户继续沿用之前的授权模式，具体参考：https://xasset.github.io/#/team-plan 。
