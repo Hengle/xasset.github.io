@@ -23,17 +23,15 @@
   * [获取下载大小](/get-download-size "获取更新大小")
   * [批量下载文件](/download-versions "下载更新内容")
   * [解压二进制](/unpack-binary "解压二进制")
-  * [离线模式](/offline-mode "离线模式")
 
 * 加载
-  * [加载策略 & 自动更新](/loading-and-updating.md "加载策略 & 自动更新")
+  * [加载策略 & 自动更新](/loading-and-updating "加载策略 & 自动更新")
   * [常规资源加载](/load-asset "常规资源加载")
   * [场景加载](/load-scene "场景加载")
-  * [仿真模式](/simulation "仿真模式")
-  * [预加载模式](/preload "预加载模式")
-  * [增量模式](/increament "增量模式")
 
 * 进阶
+  * [运行模式](/playmode "运行模式")
+  * [自动分帧](/auto-slicing "自动分帧")
   * [引用计数](/mrc "引用计数")
   * [生命周期](/lifecycle "生命周期") 
   * [自定义加载地址](custom-loadpath "自定义加载地址")

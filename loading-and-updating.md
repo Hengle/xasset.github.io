@@ -1,4 +1,4 @@
-<!-- docs/loading-and-updating.md -->
+<!-- docs/loading-and-updating -->
 ## 加载策略 & 自动更新
 
 在 xasset-7.0 中，资源的加载策略是：
