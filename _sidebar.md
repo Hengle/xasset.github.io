@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 * 入门
-  * [快速开始](/getstarted "快速开始")
-  * [系统需求](/requires "系统需求")
-  * [工程结构](/structure "工程结构")
+  * [快速开始](/firststep/getstarted "快速开始")
+  * [系统需求](/firststep/requires "系统需求")
+  * [工程结构](/firststep/structure "工程结构")
 
 * 修订
   * [更新记录](/changes "更新记录")
@@ -37,6 +37,11 @@
   * [自定义加载地址](custom-loadpath "自定义加载地址")
   * [自定义下载地址](custom-downloadurl "自定义下载地址")
   * [自定义打包粒度](custom-packmode "自定义打包粒度")
+
+* 团队支持
+  * [安装包资源加密](/binarymode "安装包资源加密")
+  * [谷歌 PAD 集成](/playassetdelivery "谷歌 PAD 集成")
+  * [XLua 集成](/xlua "XLua 集成")
 
 * 订阅
   * [版本比较](/compare-plans "版本比较")
