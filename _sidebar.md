@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 * 入门
-  * [快速开始](/firststep/getstarted "快速开始")
-  * [系统需求](/firststep/requires "系统需求")
-  * [工程结构](/firststep/structure "工程结构")
+  * [快速开始](/getstarted "快速开始")
+  * [系统需求](/requires "系统需求")
+  * [工程结构](/structure "工程结构")
 
 * 修订
   * [更新记录](/changes "更新记录")
