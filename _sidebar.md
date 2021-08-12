@@ -1,16 +1,13 @@
 <!-- docs/_sidebar.md -->
 * 入门
   * [快速开始](/getstarted "快速开始")
+  * [系统需求](/requires "系统需求")
+  * [工程结构](/structure "工程结构")
+
+* 修订
   * [更新记录](/changes "更新记录")
   * [开发路线](/roadmap "开发路线")
   * [示例说明](/example "示例说明")
-  * [系统需求](/requires "系统需求")
-  * [工程结构](/structure "工程结构")
-  * [版本比较](/compare-plans "版本比较")
-
-* 订阅
-  * [团队授权](team-plan "团队授权")
-  <!-- * [个人授权](person-plan "个人授权") -->
 
 * 打包
   * [打包流程](/build "打包流程")
@@ -20,7 +17,7 @@
   * [分包打包](/splitbuild "分包打包")
   * [打包事件](/buildevent "打包事件")
 
-* 版本更新
+* 更新
   * [初始化](/initialize "初始化")
   * [更新版本信息](/update-versions "更新版本信息")
   * [获取下载大小](/get-download-size "获取更新大小")
@@ -28,21 +25,21 @@
   * [解压二进制](/unpack-binary "解压二进制")
   * [离线模式](/offline-mode "离线模式")
 
-* 开发模式
+* 加载
+  * [加载策略 & 自动更新](/loading-and-updating.md "加载策略 & 自动更新")
+  * [常规资源加载](/load-asset "常规资源加载")
+  * [场景加载](/load-scene "场景加载")
   * [仿真模式](/simulation "仿真模式")
   * [预加载模式](/preload "预加载模式")
   * [增量模式](/increament "增量模式")
 
-* 资源加载
-  * [加载策略 & 自动更新](/loading-and-updating.md "加载策略 & 自动更新")
-  * [常规资源加载](/load-asset "常规资源加载")
-  * [场景加载](/load-scene "场景加载")
-  
-* 内存管理
+* 进阶
   * [引用计数](/mrc "引用计数")
-  * [生命周期](/lifecycle "生命周期")
+  * [生命周期](/lifecycle "生命周期") 
+  * [自定义加载地址](custom-loadpath "自定义加载地址")
+  * [自定义下载地址](custom-downloadurl "自定义下载地址")
+  * [自定义打包粒度](custom-packmode "自定义打包粒度")
 
-* 自定义
-  * [加载地址](custom-loadpath "自定义加载地址")
-  * [下载地址](custom-downloadurl "自定义下载地址")
-  * [打包粒度](custom-packmode "自定义打包粒度")
+* 订阅
+  * [版本比较](/compare-plans "版本比较")
+  * [团队授权](team-plan "团队授权")
