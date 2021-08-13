@@ -37,8 +37,6 @@
   * [自定义加载地址](/custom-loadpath "自定义加载地址")
   * [自定义下载地址](/custom-downloadurl "自定义下载地址")
   * [自定义打包粒度](/custom-packmode "自定义打包粒度")
-
-* 团队支持
   * [安装包资源加密](/binarymode "安装包资源加密")
   * [谷歌 PAD 集成](/pad "谷歌 PAD 集成")
   * [XLua 集成](/xlua "XLua 集成")
