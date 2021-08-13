@@ -34,9 +34,9 @@
   * [自动分帧](/auto-slicing "自动分帧")
   * [引用计数](/mrc "引用计数")
   * [生命周期](/lifecycle "生命周期") 
-  * [自定义加载地址](custom-loadpath "自定义加载地址")
-  * [自定义下载地址](custom-downloadurl "自定义下载地址")
-  * [自定义打包粒度](custom-packmode "自定义打包粒度")
+  * [自定义加载地址](/custom-loadpath "自定义加载地址")
+  * [自定义下载地址](/custom-downloadurl "自定义下载地址")
+  * [自定义打包粒度](/custom-packmode "自定义打包粒度")
 
 * 团队支持
   * [安装包资源加密](/binarymode "安装包资源加密")
@@ -44,5 +44,5 @@
   * [XLua 集成](/xlua "XLua 集成")
 
 * 订阅
-  * [版本比较](/compare-plans "版本比较")
-  * [团队授权](team-plan "团队授权")
+  * [版本比较](/compares "版本比较")
+  * [团队授权](/team-plan "团队授权")
