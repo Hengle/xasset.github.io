@@ -1,4 +1,4 @@
-<!-- docs/changes -->
+<!-- docs/changes.md -->
 ## 更新记录
 
 ### 7.0.5

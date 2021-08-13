@@ -1,4 +1,4 @@
-<!-- docs/compares -->
+<!-- docs/compares.md -->
 
 ## 版本比较
 

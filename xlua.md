@@ -1,4 +1,4 @@
-<!-- docs/xlua -->
+<!-- docs/xlua.md -->
 ## XLua 集成
 
 xasset-7.0 团队订阅版本提供了 xlua 的集成环境，目前主要提供了 lua 文件的打包和加载支持。

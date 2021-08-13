@@ -1,4 +1,4 @@
-<!-- docs/playmode -->
+<!-- docs/playmode.md -->
 ## 运行模式
 
 为了方便开发、测试和发布，xasset 提供了以下几种运行模式：

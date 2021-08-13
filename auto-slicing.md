@@ -1,4 +1,4 @@
-<!-- docs/auto-slicing -->
+<!-- docs/auto-slicing.md -->
 ## 自动分帧
 
 自动分帧技术主要用来保障程序运行时的 FPS。

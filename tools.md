@@ -1,4 +1,4 @@
-<!-- docs/menuitems.md -->
+<!-- docs/tools -->
 ## 编辑器工具
 
 xasset-7.0 主要提供了如下编辑器工具：

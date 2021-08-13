@@ -11,7 +11,7 @@
 
 * 打包
   * [打包流程](/build "打包流程")
-  * [编辑器工具](/memuitems "编辑器工具")
+  * [编辑器工具](/tools "编辑器工具")
   * [分组策略](/groups "分组策略")
   * [图集打包](/atlaspack "图集打包")
   * [分包打包](/splitbuild "分包打包")
@@ -40,9 +40,9 @@
 
 * 团队支持
   * [安装包资源加密](/binarymode "安装包资源加密")
-  * [谷歌 PAD 集成](/playassetdelivery "谷歌 PAD 集成")
+  * [谷歌 PAD 集成](/pad "谷歌 PAD 集成")
   * [XLua 集成](/xlua "XLua 集成")
 
 * 订阅
   * [版本比较](/compares "版本比较")
-  * [团队授权](/team-plan "团队授权")
+  * [授权模式](/license "授权模式")

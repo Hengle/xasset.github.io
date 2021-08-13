@@ -1,4 +1,4 @@
-<!-- docs/playassetdelivery -->
+<!-- docs/pad.md -->
 ## 谷歌 PAD 集成
 
 PAD 是 PlayAssetDelivery 的简称，对于团队用户，xasset-7.0 提供了谷歌 PAD 的集成，可以帮助团队用户让程序更快更轻松的达成 Google Play 商店的上线标准。
