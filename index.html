@@ -1,23 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>xasset 文档</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+    <title>xasset：全面可靠的 Unity 资源系统</title>
+    <!--
+
+    Template 2106 Soft Landing
+
+    http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="team" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+
 </head>
+
 <body>
-  <div id="app">Loading...</div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: '',
-      loadSidebar: true,
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- PRE LOADER -->
+    <section class="preloader">
+        <div class="spinner">
+
+            <span class="spinner-rotate"></span>
+
+        </div>
+    </section>
+
+
+    <!-- MENU -->
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+
+                <!-- lOGO TEXT HERE -->
+                <a href="index.html" class="navbar-brand">xasset</a>
+            </div>
+
+            <!-- MENU LINKS -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home" class="smoothScroll">首页</a></li>
+                    <li><a href="#feature" class="smoothScroll">特性</a></li>
+                    <li><a href="https://xasset.github.io/" class="smoothScroll">文档</a></li>
+                    <li><a href="#about" class="smoothScroll">关于</a></li>
+                    <li><a href="#pricing" class="smoothScroll">价格</a></li>
+                    <li><a href="#contact" class="smoothScroll">联系</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">微信 - vmakemore</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FEATURE -->
+    <section id="home" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="home-info">
+                        <h1 style="font-size: 64px;">xasset <small
+                                style="color: white;font-size: xx-small;">7.0.5</small></h1>
+                        <h1>全面可靠的 Unity 资源系统</h1>
+                        <h3>更快，更轻松的解决 Unity 项目的打包慢、包体大、资源更新、内存管理和运行卡顿之类的疑难杂症</h3>
+                        <!-- <form action="" method="get" class="online-form">
+                            <input type="email" name="email" class="form-control" placeholder="输入邮箱" required="">
+                            <button type="submit" class="form-control">了解更多</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FEATURE -->
+    <section id="feature" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                        <h1>为你的 Unity 项目筑基</h1>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">完美打包</a>
+                        </li>
+
+                        <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">稳定更新</a></li>
+
+                        <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">敏捷开发</a></li>
+
+                        <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">流畅运行</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab01" role="tabpanel">
+                            <div class="tab-pane-item">
+                                <h2>快速打包</h2>
+                                <p>对于大体量的项目，可以根据使用情况把资源拆分为多个打包模块，然后按需构建，加快打包效率。并且，不拆分的情况下，10 万贴图可以 10
+                                    分钟打包好。另外，还可以通过自动分组机制有效处理 95% 的 Assets 目录资源打包冗余问题。
+                                </p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>灵活分包</h2>
+                                <p>可以预定义多组分包配置来规划需要包含到安装包的资源，支持空包启动，最小安装包可以轻松控制到 30 MB。并且，适配了 Android App Bundle 和 Play
+                                    Asset
+                                    Delivery 技术，安装包大小可以轻松突破 150MB 的限制。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>高效加密</h2>
+                                <p>使用独特的方案对打包后的资源进行加密处理，不仅可以防止安装包资源被 AssetStudio 之类的工具轻易提取，并且 Android 真机测试加载资源的耗时有 10%
+                                    左右的提升。了解更多，可以参考:<a href="https://xasset.github.io/#/binarymode"
+                                        style="color: green;">安装包资源加密</a>。</p>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane" id="tab02" role="tabpanel">
+                            <div class="tab-pane-item">
+                                <h2>高效可靠</h2>
+                                <p>使用只读的物理文件信息巧妙的管理本地资源的版本信息，对比一些祖传代码，这种新的设计的稳定性和效率可以根据项目的资源体量得到可能高达成千上万倍的提升。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>按需处理</h2>
+                                <p>可以提前根据资源加载路径或分组名字获取需要更新的大小，也可以在加载资源的时候进行自动更新，系统会自动处理依赖关系，没有额外的业务负担，并且支持自动热重载，资源更新后无需重启即可继续。
+                                </p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>边玩边下</h2>
+                                <p>提供多线程下载组件，支持限速、并发数量控制、断点续传、指纹校验、可以轻松获取下载速度和大小，具备网络异常自修复能力，可以有效减少业务中断。</p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="tab03" role="tabpanel">
+                            <div class="tab-pane-item">
+                                <h2>仿真模式</h2>
+                                <p>编辑器有效，只需设置好打包分组、可以跳过打包直接运行。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>预加载模式</h2>
+                                <p>编辑器有效，需要先打包才能运行，直接加载最新的打包数据，不会触发更新。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>增量模式</h2>
+                                <p>需要先打包才能运行，可以在编辑器下模拟和真机一样的版本更新流程。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>离线模式</h2>
+                                <p>真机有效，不会触发版本更新，可以为 iOS 提审包快速准备运行环境。</p>
+                            </div>
+                            <div class="tab-pane-item">
+                                <h2>跨平台</h2>
+                                <p>统一使用相对路径加载资源或场景，自动管理依赖，支持异步转同步，兼容 Android、iOS、WebGL、PC、OSX 等平台。</p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="tab04" role="tabpanel">
+                            <div class="tab-pane-item">
+                                <h2>自动分帧</h2>
+                                <p>系统默认会集中处理所有更新操作，并根据当前可用的单帧时间，有选择地执行更新业务，如果当前帧可用单帧时间小于或等于
+                                    0，则把没处理完的操作放到下一帧处理，从而避免单帧内大量业务堆积导致程序运行的卡顿问题。另外，业务层在回收资源的时候无需主动执行
+                                    System.GC.Collect 或 Resources.RemoveUnusedAssets 这两个耗时可能会超出 100MS
+                                    的操作，并且基于自动分帧技术实现了全新的异步渐进式回收，为资源回收的卡顿问题提供了更有力的技术保障。 </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="feature-image">
+                        <img src="images/feature-mockup.png" class="img-responsive" alt="Thin Laptop">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title">
+                        <h1>专业的团队为你服务</h1>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb">
+                        <img src="images/team-image1.jpg" class="img-responsive" alt="Andrew Orange">
+                        <div class="team-info team-thumb-up">
+                            <h2>许欣杰</h2>
+                            <small>JEngine 作者</small>
+                            <p>擅长基于 ILRuntime 的 C# 代码热更新技术，ILRuntime 项目贡献成员，目前在澳大利亚留学。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb">
+                        <div class="team-info team-thumb-down">
+                            <h2>马三小伙儿</h2>
+                            <small>知名博主</small>
+                            <p>UWA Star，Unity3DTraining、ColaFrameWork等开源项目负责人，目前就职于 mihayo。</p>
+                        </div>
+                        <img src="images/team-image2.jpg" class="img-responsive" alt="Catherine Soft">
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="team-thumb">
+                        <img src="images/team-image3.jpg" class="img-responsive" alt="Jack Wilson">
+                        <div class="team-info team-thumb-up">
+                            <h2>MoMo的奶爸</h2>
+                            <small>xasset 作者</small>
+                            <p>game4d.cn 创办人，负责 xasset 项目的研发、销售和技术支持以及团队管理。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+    <section id="testimonial" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="testimonial-image"></div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="testimonial-info">
+
+                        <div class="section-title">
+                            <h1>推荐感言</h1>
+                        </div>
+
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <h3>对于一般项目，个人推荐使用开源版本，对于十分需要 分包、局部更新 等技术支持的项目，订阅不止是帮老板省钱，也是在给自己节省时间。</h3>
+                                <div class="testimonial-item">
+                                    <img src="images/team-image3.jpg" class="img-responsive" alt="MoMo的奶爸">
+                                    <h4>MoMo的奶爸</h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3>对于一般项目，个人推荐使用开源版本，对于十分需要 分包、局部更新 等技术支持的项目，订阅不止是帮老板省钱，也是在给自己节省时间。</h3>
+                                <div class="testimonial-item">
+                                    <img src="images/team-image1.jpg" class="img-responsive" alt="许欣杰">
+                                    <h4>许欣杰</h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <h3>对于一般项目，个人推荐使用开源版本，对于十分需要 分包、局部更新 等技术支持的项目，订阅不止是帮老板省钱，也是在给自己节省时间。</h3>
+                                <div class="testimonial-item">
+                                    <img src="images/team-image2.jpg" class="img-responsive" alt="马三小伙儿">
+                                    <h4>马三小伙儿</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PRICING -->
+    <section id="pricing" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                        <h1>选择适合你的方案</h1>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-thumb">
+                        <div class="pricing-title">
+                            <h2>开源版</h2>
+                        </div>
+                        <div class="pricing-info">
+                            <p>体验使用</p>
+                            <p>非分布式打包</p>
+                            <p>全量更新</p>
+                            <p>跨平台加载</p>
+                            <p>微信大群技术支持（24小时内响应）</p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <span class="pricing-dollar">20 人民币/月</span>
+                            <a href="#" class="section-btn pricing-btn">立即订阅</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-thumb">
+                        <div class="pricing-title">
+                            <h2>团队版</h2>
+                        </div>
+                        <div class="pricing-info">
+                            <p>1 个商业项目使用</p>
+                            <p>分布式打包、分包打包、资源加密</p>
+                            <p>局部更新、自动更新、多线程下载等</p>
+                            <p>XLua、Android App Bundle 适配</p>
+                            <p>专属对接群（7小时内响应）</p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <span class="pricing-dollar">2999 人民币/年</span>
+                            <a href="#" class="section-btn pricing-btn">立即订阅</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricing-thumb">
+                        <div class="pricing-title">
+                            <h2>旗舰版</h2>
+                        </div>
+                        <div class="pricing-info">
+                            <p>不限个商业项目使用</p>
+                            <p>分布式打包、分包打包、资源加密</p>
+                            <p>局部更新、自动更新、多线程下载等</p>
+                            <p>XLua、Android App Bundle 适配</p>
+                            <p>专属对接群（1小时内响应）</p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <span class="pricing-dollar">50000 人民币/年</span>
+                            <a href="#" class="section-btn pricing-btn">立即订阅</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <form id="contact-form" role="form" action="" method="post">
+                        <div class="section-title">
+                            <h1>给我们留言</h1>
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <input type="text" class="form-control" placeholder="称呼" name="name" required="">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <input type="email" class="form-control" placeholder="邮箱" name="email" required="">
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <input type="submit" class="form-control" name="send message" value="发送">
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <textarea class="form-control" rows="8" placeholder="留言内容" name="message"
+                                required=""></textarea>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="footer" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+
+                <div class="copyright-text col-md-12 col-sm-12">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; 2021 GAME4D 版权所有
+                            <!--                        <a rel="nofollow" href="http://tooplate.com">Tooplate</a>-->
+                        </p>
+                    </div>
+
+                    <!--                <div class="col-md-6 col-sm-6">-->
+                    <!--                    <ul class="social-icon">-->
+                    <!--                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>-->
+                    <!--                        <li><a href="#" class="fa fa-twitter"></a></li>-->
+                    <!--                        <li><a href="#" class="fa fa-instagram"></a></li>-->
+                    <!--                    </ul>-->
+                    <!--                </div>-->
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>
