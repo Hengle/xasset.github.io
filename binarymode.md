@@ -1,7 +1,7 @@
 <!-- docs/binarymode.md -->
 ## 安装包资源加密
 
-xasset-7.0 使用了最高效的资源加密方式来防止资源轻易被 AssetStudio 之类的工具破解。以下是加载同一个资源加密前后的 CPU 耗时和 GC 的真机 Profiler 采样数据：
+xasset 7.0 使用了最高效的资源加密方式来防止资源轻易被 AssetStudio 之类的工具破解。以下是加载同一个资源加密前后的 CPU 耗时和 GC 的真机 Profiler 采样数据：
 
 |        | CPU（MS） | GC（KB） |
 | ------ | ----------- | -------- |

@@ -1,7 +1,7 @@
 <!-- docs/load-scene.md -->
 ## 场景加载
 
-在 xasset-7.0 中，不论是 ScenesInBuild 中的场景，还是打包 AssetBundle 的场景，都是使用下面这个接口进行加载:
+在 xasset 7.0 中，不论是 ScenesInBuild 中的场景，还是打包 AssetBundle 的场景，都是使用下面这个接口进行加载:
 
 - Scene.LoadAsync
 

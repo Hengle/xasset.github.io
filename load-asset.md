@@ -1,7 +1,7 @@
 <!-- docs/load-asset.md -->
 ## 常规资源加载
 
-常规资源指的是除了场景外所有打包 AssetBundle 的资源，对此，xasset-7.0 提供了以下接口进行加载：
+常规资源指的是除了场景外所有打包 AssetBundle 的资源，对此，xasset 7.0 提供了以下接口进行加载：
 
 - Asset.Load(Async): 同步(异步)加载
 
